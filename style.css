@@ -3,9 +3,28 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: ; 
+font-family: Arial; 
 
+}
 
+a {             /*anchor tag, so this is styling alll the hyperlinks in the project*/
 
+}
+img{
+    cursor: pointer;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+    position: static; /*the nav bar wont move*/
+    top: 0px; /*the nav bar will be 0 px on the top of the web page*/
+    z-index: 10; /*used to stack an element on top of another one remeber the back ground is white so we are pushing this element forward on top of the web page*/
 
 }
