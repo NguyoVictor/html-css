@@ -27,4 +27,14 @@ nav{
     top: 0px; /*the nav bar will be 0 px on the top of the web page*/
     z-index: 10; /*used to stack an element on top of another one remeber the back ground is white so we are pushing this element forward on top of the web page*/
 
+.nav-right img{ /*every element the images that is is gonna push 25 pixels of space to the right of each other */
+margin-right: 25px;
+width: 25px
+}
+.nav-right .user-icon{
+    width: 
+    border-radius: 
+
+
+}
 }
