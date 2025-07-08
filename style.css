@@ -48,12 +48,12 @@ width: 25px
 
 .nav-middle .mic-icon{
     width:16px;
-    
+    margin-left: 12px;
 }
 
 .nav-middle .search-box{    /*the first class is the parent class, the second class is the child class*/
     border: solid 1px #ccc;
-    margin-right: 15px;
+    margin-right: 0px;
     padding: 8px 12px; /* 8px from the top and bottom and 12px for the left side like spacing inside the element*/
     border-radius: 25px;
 }
