@@ -46,10 +46,12 @@ width: 25px
     width:100px;
 }
 
-.nav-middle .mic-icon{
+.nav-middle .mic-icon{  
     width:16px;
     margin-left: 12px;
+  
 }
+
 
 .nav-middle .search-box{    /*the first class is the parent class, the second class is the child class*/
     border: solid 1px #ccc;
