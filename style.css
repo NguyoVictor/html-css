@@ -73,4 +73,19 @@ width: 25px
 }
 
 /*side bar*/
-.side bar
+.side-bar{
+    background: #fff; /*it matches the background color of the whole page to white*/
+    width: 15px;
+    height: 100vh; /*the vh means viewport height , fills the entire visible screen height*/
+    position: fixed;
+    top: 0;
+    padding-left: 2%; /* when you put 2px it means 2 pixels of space on the left, always the same size, no matter the screen size or element size
+    the 2% means the width of the containing element, changes depending on how big the parent container. Say the parent element is 1000px wide, 
+    2px = 2 pixels of padding
+    2% = 20 px of padding (2 of 1000) so thats 20px*/
+    padding-top: 65px;
+}
+
+.shortcut-links a img{
+    width:20px
+}
