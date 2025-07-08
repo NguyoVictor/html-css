@@ -45,3 +45,27 @@ width: 25px
 .nav-left .logo-icon{
     width:100px;
 }
+
+.nav-middle .mic-icon{
+    width:16px;
+    
+}
+
+.nav-middle .search-box{    /*the first class is the parent class, the second class is the child class*/
+    border: solid 1px #ccc;
+    margin-right: 15px;
+    padding: 8px 12px; /* 8px from the top and bottom and 12px for the left side like spacing inside the element*/
+    border-radius: 25px;
+}
+
+/*so this is the input field te part that has the placeholder search we are removing its border integrate with search box*/
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.nav-middle .search-box img{
+    width: 15px; /*image size for the images near the search bar formatting uniformally*/ 
+}
