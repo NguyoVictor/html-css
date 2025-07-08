@@ -87,5 +87,14 @@ width: 25px
 }
 
 .shortcut-links a img{
-    width:20px
+    width:20px;
+    margin-right: 20px;
+}
+
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;/*seperates the icon images with 20px*/
+    width: fit-content;
+    flex-wrap:wrap;/*the combination of display flex and this one flex wrap lets the flex items move to the next line if there;s not enough space*/
 }
