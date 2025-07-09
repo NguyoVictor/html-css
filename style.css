@@ -23,7 +23,7 @@ nav{
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: white;
-    position: static; /*the nav bar wont move*/
+    position: sticky; /*The element scrolls normally, but then "sticks" to a position (like the top of the screen) when you scroll past it.*//*static: the nav bar wont move using the properties top, bottom, left, right*/
     top: 0px; /*the nav bar will be 0 px on the top of the web page*/
     z-index: 10; /*used to stack an element on top of another one remeber the back ground is white so we are pushing this element forward on top of the web page*/
 }
@@ -75,15 +75,17 @@ width: 25px
 /*side bar*/
 .side-bar{
     background: #fff; /*it matches the background color of the whole page to white*/
-    width: 15px;
+    width: 15%;
     height: 100vh; /*the vh means viewport height , fills the entire visible screen height*/
     position: fixed;
+    padding-left: 2%;
+    padding-top: 65px;
     top: 0;
-    padding-left: 2%; /* when you put 2px it means 2 pixels of space on the left, always the same size, no matter the screen size or element size
+     /* when you put 2px it means 2 pixels of space on the left, always the same size, no matter the screen size or element size
     the 2% means the width of the containing element, changes depending on how big the parent container. Say the parent element is 1000px wide, 
     2px = 2 pixels of padding
     2% = 20 px of padding (2 of 1000) so thats 20px*/
-    padding-top: 65px;
+    
 }
 
 .shortcut-links a img{
@@ -97,4 +99,8 @@ width: 25px
     margin-bottom: 20px;/*seperates the icon images with 20px*/
     width: fit-content;
     flex-wrap:wrap;/*the combination of display flex and this one flex wrap lets the flex items move to the next line if there;s not enough space*/
+}
+
+.shortcut-links a:first-child{
+    color: #ed3833;
 }
