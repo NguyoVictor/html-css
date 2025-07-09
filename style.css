@@ -72,7 +72,7 @@ width: 25px
     width: 15px; /*image size for the images near the search bar formatting uniformally*/ 
 }
 
-/*side bar*/
+/*side bar look for how youll remove the underline*/
 .side-bar{
     background: #fff; /*it matches the background color of the whole page to white*/
     width: 15%;
@@ -103,4 +103,23 @@ width: 25px
 
 .shortcut-links a:first-child{
     color: #ed3833;
+}
+
+.subscribed-list{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribed-list a{
+    display:flex;
+    align-items:center;
+    margin-bottom: 30px;
+    width: fit-content;
+    flex-wrap:wrap;
+}
+
+.subscribed-list a img{
+    width:25px;
+    border-radius:50%;
+    margin-left:20px;
 }
